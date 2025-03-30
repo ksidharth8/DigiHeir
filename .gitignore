@@ -42,3 +42,10 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+
+# frontend
+frontend/node_modules/
+frontend/.next/
+frontend/build/
+frontend/dist/
+frontend/coverage/
