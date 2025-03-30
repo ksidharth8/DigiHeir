@@ -6,6 +6,9 @@ import Dashboard from './pages/Dashboard';
 import CreateWill from './pages/CreateWill';
 import ViewWill from './pages/ViewWill';
 
+const CONTRACT_ADDRESS = process.env.REACT_APP_CONTRACT_ADDRESS;
+const MUMBAI_RPC_URL = process.env.REACT_APP_MUMBAI_RPC_URL;
+
 function App() {
   return (
     <Web3Provider>
